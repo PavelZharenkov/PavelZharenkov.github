@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Istok+Web:400,700|Noto+Serif:400,700|PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+*{
+	//border: 1px solid red;
+}
+
+body {
+	font-family: 'Istok Web', sans-serif;
+	color:#333;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: 'Noto Serif', serif;
+	font-size: 22px;
+	line-height: 38px;
+	font-weight: 700;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+/*header*/
+
+.container {
+	max-width: 1360px;
+}
+
+img {
+	width: 100%;
+}
+
+/*main*/
+
+main {
+	padding-top: 22.5px;
+	padding-bottom: 30px;
+}
+
+.image {
+	padding-right: 0;
+	margin-top: 15px;
+}
+
+.img__overlay {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	left: 0;
+ 	bottom: 0%;
+ 	width: 100%;
+ 	height: 54%;
+ 	background-color: rgba(0, 0, 0, 0.3);
+ 	z-index: 0;
+}
+
+.overlay1 {
+	position: absolute;
+	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	height: 44px;
+ 	background-color: rgba(0, 0, 0, 0.4);
+ 	z-index: 0;
+}
+
+.overlay__text {
+	left: 3%;
+ 	bottom: 15%;
+	position: absolute;
+	color: #fff;
+}
+
+.overlay__text p {
+	font-family: 'Istok Web', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.overlay__data {
+	left: 3%;
+ 	bottom: 0;
+ 	width: 94%;
+	position: absolute;
+	color: #fff;
+}
+
+.head__item {
+
+}
+
+.fa-eye {
+	font-weight: 700;
+}
+
+.head__item_i {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 38px;
+	margin-right: 32px;
+}
+
+.head__icon {
+	margin-right: 12px;
+	font-size: 16px;
+}
+
+a {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 38px;
+	align-self: center;
+	text-decoration: underline;
+	color: #e0c3a0;
+	z-index: 10;
+	margin: 0 0 0 auto;
+}
+
+.aaa {
+	margin: 0 0 0 auto;
+}
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
